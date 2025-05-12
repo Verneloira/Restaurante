@@ -6,8 +6,9 @@
 <br>
 <br>
 <h2>tecnologias utlizadas</h2>
+
 <br>
 <br>
 <h3>Formato desktop e mobile</h3>
-<img src="https://github.com/Verneloira/Restaurante/blob/main/assets/restaurante%20desktop.png"
-<img src=""
+<img src="https://github.com/Verneloira/Restaurante/blob/main/assets/restaurante%20desktop.png"/>
+<img src=""https://github.com/Verneloira/Restaurante/blob/main/assets/restaurante%20mobile.png/>
