@@ -1,6 +1,7 @@
 <h1>Delícias Gourmet</h1>
 <br>
-
+<h3>projeto autoral que desenvolvi para aprimorar as abilidades que aprendi no<a href="https//rodolfomori.com.br/devclub">DevClub</a</h3>
+<br>
 <p>Restaurante Gourmet um projeto desenvolvido para oferecer uma experiência digital elegante e funcional, destacando pratos sofisticados através de uma galeria interativa e um menu intuitivo.
 </p>
 <br>
