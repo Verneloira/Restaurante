@@ -1,4 +1,13 @@
 <h1>Delícias Gourmet</h1>
-<h3>Restaurante Gourmet um projeto desenvolvido para oferecer uma experiência digital elegante e funcional, destacando pratos sofisticados através de uma galeria interativa e um menu intuitivo.
-</h3>
-<h3>tecnologias utlizadas</h3>
+<br>
+<br>
+<p>Restaurante Gourmet um projeto desenvolvido para oferecer uma experiência digital elegante e funcional, destacando pratos sofisticados através de uma galeria interativa e um menu intuitivo.
+</p>
+<br>
+<br>
+<h2>tecnologias utlizadas</h2>
+<br>
+<br>
+<h3>Formato desktop e mobile</h3>
+<img src="https://github.com/Verneloira/Restaurante/blob/main/assets/restaurante%20desktop.png"
+<img src=""
