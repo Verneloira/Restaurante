@@ -16,4 +16,4 @@
 <br>
 <h3>Formato desktop e mobile</h3>
 <img src="https://github.com/Verneloira/Restaurante/blob/main/assets/restaurante%20desktop.png"/>
-<img src=""https://github.com/Verneloira/Restaurante/blob/main/assets/restaurante%20mobile.png/>
+<img src="https://github.com/Verneloira/Restaurante/blob/main/assets/restaurante%20mobile.png"/>
