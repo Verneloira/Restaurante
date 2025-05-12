@@ -5,18 +5,41 @@
     font-family: "Poppins", sans-serif;
 }
 
-body {background: url("./assets/img\ fundo2.jpg") no-repeat center fixed;
+body {
+    background: url("./assets/img\ fundo2.jpg") no-repeat center fixed;
     background-size: cover;
     color: white;
     text-align: center;
 }
+
+
+h2 {
+    margin-top: 20px;
+}
+
+
+.menu {
+    padding: 40px;
+}
+
 .dish {
     color: #efecec;
     font-size: large;
+    padding: 10px;
 }
+
+.dish img {
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
+}
+
 header {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     padding: 20px;
     background: rgba(34, 34, 34, 0.8);
 }
@@ -25,6 +48,7 @@ nav ul {
     list-style: none;
     display: flex;
     gap: 20px;
+    margin-top: 15px;
 }
 
 nav a {
@@ -38,10 +62,12 @@ nav a:hover {
     color: #b300ff;
 }
 
+
 .hero {
     padding: 100px 20px;
     font-size: 24px;
 }
+
 
 .gallery {
     padding: 50px;
@@ -59,12 +85,14 @@ nav a:hover {
 }
 
 .photo img {
-    width: 100%;
-    height: 300px;
+    max-width: 100%;
+    height: auto;
     object-fit: cover;
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
 }
+
+
 
 .photo p {
     margin-top: 10px;
@@ -74,10 +102,6 @@ nav a:hover {
 }
 
 
-.contact {
-    padding: 50px;
-}
-
 button {
     padding: 15px 30px;
     font-size: 18px;
@@ -91,121 +115,59 @@ button:hover {
     transform: scale(1.05);
 }
 
+
 @media (max-width: 1024px) {
-.hero {
+    .hero {
         padding: 80px 20px;
         font-size: 20px;
+    }
 }
-}
-
-
 
 @media (max-width: 768px) {
     header {
         flex-direction: column;
         text-align: center;
-}
+    }
+
     nav ul {
         flex-direction: column;
         gap: 10px;
-}
-.hero {
+    }
+
+    .hero {
         padding: 60px 15px;
         font-size: 18px;
-}
-.gallery {
+    }
+
+    .gallery {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .photo img {
+        width: 200px;
+    }
 }
 
-.photo img {
-        width: 200px;
+.dish img {
+    width: 150px;
 }
-}
+
 
 @media (max-width: 480px) {
-.hero {
+    .hero {
         padding: 40px 10px;
         font-size: 16px;
-}
-.gallery {
+    }
+
+    .gallery {
         grid-template-columns: repeat(1, 1fr);
-}
+    }
 
-.photo img {
+    .photo img {
         width: 150px;
-}
-}
-
-header {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    background: rgba(34, 34, 34, 0.8);
+    }
 }
 
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
+.dish img {
+    width: 120px;
 }
-nav a {
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
-    transition: color 0.3s;
-}
-
-nav a:hover {
-    color: #6d54a7;
-}
-
-.hero {
-    padding: 100px 20px;
-    font-size: 24px;
-}
-
-.gallery {
-    padding: 50px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
-    justify-content: center;
-    scroll-snap-type: y mandatory;
-}
-
-.photo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.photo img {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
-    scroll-snap-align: start;
-}
-
-
-
-.contact {
-    padding: 50px;
-}
-
-button {
-    padding: 15px 30px;
-    font-size: 18px;
-    cursor: pointer;
-    border: none;
-    border-radius: 10px;
-    transition: transform 0.3s ease-in-out;
-}
-
-button:hover {
-    transform: scale(1.05);
-}
-
-
-
-
